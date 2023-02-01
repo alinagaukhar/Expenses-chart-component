@@ -1,0 +1,1 @@
+1) problem: header becomes distractive on screen size < 700

@@ -1,0 +1,128 @@
+* {
+    font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+body {
+    background-color: hsl(27, 66%, 92%);
+}
+
+.header {
+    position: relative;
+    background-color: hsl(10, 79%, 65%);
+    color: white;
+    width: 30%;
+    border-radius: 20px;
+    height: 70px;
+    font-size: 0.7em;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.header section {
+    font-size: 1.8em;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.header img {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
+.main-content {
+    position: relative;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.main-content h2 {
+    font-weight: 700;
+    color: hsl(25, 47%, 15%);
+    font-size: 1.3em;
+}
+.main-content .weekday {
+    position: relative;
+    width: 14.28%;
+    height: 200px;
+    float: left;
+    color: hsl(28, 10%, 53%);
+}
+.main-content .weekday .bar{
+    background-color: hsl(10, 79%, 65%);
+    position: absolute;
+    bottom: 20px;
+    width: 75%;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+.main-content .weekday .bar:hover {
+    background-color: hsl(186, 34%, 60%);
+}
+.main-content .weekday span {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-content hr {
+    width: 100%;
+    text-align: center;
+    color: hsl(28, 10%, 53%);
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.main-content .total {
+    color:hsl(28, 10%, 53%);
+    font-size: 0.8em;
+}
+.main-content .total section {
+    font-size: 2.25em;
+    font-weight: 700;
+    color:hsl(25, 47%, 15%);
+}
+.main-content .increase {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    padding-left: 140px;
+    text-align: right;
+    font-weight: 700;
+}
+.main-content .increase span {
+    color:hsl(28, 10%, 53%);
+    font-size: 0.8em;
+    font-weight: 400;
+}
+@media (max-width: 375px) {
+    .header{
+        width: 80%;
+    }
+    .main-content{
+        width: 80%;
+    }
+}
+@media (max-width: 900px) {
+    .header{
+        width: 45%;
+    }
+    .main-content {
+        width: 45%;
+    }
+}
+@media (max-width: 600px) {
+    .header {
+        width: 65%;
+    }
+    .main-content {
+        width: 65%;
+    }
+}
